@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* tooltips */
+.container {
+    position: absolute;
+    width: fit-content;
+    max-width: 400px;
+    height: fit-content;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: paleturquoise;
+    font-family: 'K2D', sans-serif;
+}
+
+#ID, #officialName, #aliasName, #totalLeafNode{
+    font-size: 15px;
+}
+
+
+
+/* tree diagram */
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.node circle:hover {
+    stroke-width: 5px;
+}
+
+.node text {
+    font: 10px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+.found {
+  fill: #ff4136;
+  stroke: #ff4136;
+}
+
+
+
+/*Just to ensure the select2 box is "glued" to the top*/
+.search {
+  width: 100%;
+}
+
+
+
+/* buttons */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'K2D', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover, .button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+#reset {
+  color: darkred;
+} /* reset button */
+
+div.sticky-button {
+  position: sticky;
+  bottom: 10px;
+}
