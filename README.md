@@ -1,3 +1,3 @@
-"# Org-Chart-of-Thailiand-Organization-using-D3.js" 
+<h1 dir=auto> Org Chart of Thailiand Organization using D3.js </h1>
 
-Click to see how it works: https://pavidamalitong.github.io/Org-Chart-of-Thailiand-Organization-using-D3.js/
+<a href="https://pavidamalitong.github.io/Org-Chart-of-Thailiand-Organization-using-D3.js/">Click to see the demo here</a>
